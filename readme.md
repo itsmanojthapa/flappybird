@@ -144,7 +144,7 @@ if (pipes.length === 0 || pipes[pipes.length - 1].x < canvas.width - 200) {
   - Subtracting pipeGap ensures there’s enough room below the top pipe for the gap.
   - Subtracting 100 further restricts the range to avoid placing pipes too close to the bottom of the canvas, ensuring gameplay fairness and aesthetic consistency.
 
-- +50
+- +50:
   - Without this, the top pipe could be at y = 0, which might visually clip or overlap with other elements.
 
 ---
